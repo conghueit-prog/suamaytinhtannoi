@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng Giá Chi Tiết - IT SERVICE PROVIDER</title>
+    <style>
+        html { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #f8fafc; color: #1e293b; margin: 0; padding: 40px 24px; }
+        .container { max-width: 900px; margin: 0 auto; background: white; padding: 40px; border-radius: 24px; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; }
+        .header-area { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #e2e8f0; padding-bottom: 20px; margin-bottom: 30px; }
+        .title h1 { font-size: 28px; font-weight: bold; color: #0f172a; margin: 0; }
+        .title p { color: #64748b; margin: 8px 0 0 0; font-size: 15px; }
+        .btn-back { text-decoration: none; padding: 12px 24px; background: #f1f5f9; color: #334155; font-weight: 600; border-radius: 12px; transition: all 0.2s; }
+        .btn-back:hover { background: #e2e8f0; }
+        .pricing-table { width: 100%; border-collapse: collapse; text-align: left; }
+        .pricing-table th { background: #2563eb; color: white; padding: 18px; font-weight: 600; font-size: 16px; }
+        .pricing-table td { padding: 18px; border-bottom: 1px solid #e2e8f0; color: #334155; font-size: 15px; }
+        .pricing-table tr:hover { background: #f8fafc; }
+        .text-price { font-weight: bold; color: #b45309; font-size: 16px; }
+        .footer-note { text-align: center; color: #94a3b8; font-size: 13px; margin-top: 30px; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Thanh đầu trang bảng giá gồm Tiêu đề và Nút quay lại trang chủ -->
+        <div class="header-area">
+            <div class="title">
+                <h1>📊 BẢNG GIÁ DỊCH VỤ IT CHÍNH THỨC</h1>
+                <p>Áp dụng cho khách hàng cá nhân, văn phòng và doanh nghiệp</p>
+            </div>
+            <!-- Khi bấm nút này sẽ tự động quay trở lại trang chủ của bạn -->
+            <a href="index2.html" class="btn-back">⬅️ Quay lại Trang Chủ</a>
+        </div>
+
+        <!-- Bảng liệt kê chi tiết giá cả -->
+        <table class="pricing-table">
+            <thead>
+                <tr>
+                    <th>Hạng Mục Dịch Vụ IT</th>
+                    <th>Nội Dung Hỗ Trợ Kỹ Thuật</th>
+                    <th>Đơn Giá (VND)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><b>Cài Hệ Điều Hành Máy Tính</b></td>
+                    <td>Windows 10/11, MacOS, cài driver chuẩn, dọn rác tối ưu hệ thống</td>
+                    <td class="text-price">150.000 đ</td>
+                </tr>
+                <tr>
+                    <td><b>Cài Phần Mềm Chuyên Ngành</b></td>
+                    <td>Đồ họa (Adobe), Thiết kế (AutoCAD), Office văn phòng bản quyền</td>
+                    <td class="text-price">50.000 đ / bản</td>
+                </tr>
+                <tr>
+                    <td><b>Vệ Sinh Máy Tính Tận Nơi</b></td>
+                    <td>Làm sạch bụi bẩn bo mạch, quạt gió, tra keo tản nhiệt cao cấp MX4</td>
+                    <td class="text-price">150.000 đ - 200.000 đ</td>
+                </tr>
+                <tr>
+                    <td><b>Thay Ổ Cứng SSD Siêu Tốc</b></td>
+                    <td>Nâng cấp SSD chính hãng giúp khởi động máy chỉ mất 5 giây (Bảo hành 3 năm)</td>
+                    <td class="text-price">Từ 450.000 đ</td>
+                </tr>
+                <tr>
+                    <td><b>Cứu Hộ Mạng Nội Bộ / Wi-Fi</b></td>
+                    <td>Xử lý mất mạng, Wi-Fi chập chờn, rớt kết nối liên tục, bấm đầu dây mạng</td>
+                    <td class="text-price">200.000 đ / lần</td>
+                </tr>
+                <tr>
+                    <td><b>Bảo Trì Văn Phòng Định Kỳ</b></td>
+                    <td>Kiểm tra hệ thống máy tính, máy in, dữ liệu định kỳ hàng tháng cho công ty</td>
+                    <td class="text-price">Khảo sát báo giá cụ thể</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="footer-note">
+            <p>* Báo giá công khai, cam kết kỹ thuật viên kiểm tra báo đúng lỗi trước khi tiến hành sửa chữa.</p>
+        </div>
+    </div>
+
+</body>
+</html>
